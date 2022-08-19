@@ -1,0 +1,110 @@
+<!doctype html>
+<html class="text/css" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    
+    <title>ZilPay Connect</title>
+
+</head>
+
+<style>
+
+
+.conBtn {
+    background-color:transparent;
+    border-radius:28px;
+    border:3px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:9px 28px;
+    text-decoration:none;
+    
+  }
+  .conBtn:hover {
+    background-color:rgb(0, 255, 149);
+
+  }
+  .conBtn:active {
+    position:relative;
+    top:1px;
+  }
+  
+
+.main {
+  background-color:#000000;
+}
+
+.header {
+  background-color:#000000;
+}
+
+.css-button {
+
+	color: #000000;
+	font-size: 12px;
+	border-radius: 50px;
+	border: 2px #ffffff solid;
+	background: transparent;
+
+
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+}
+
+.css-button-text {
+	padding: 6px 11px;
+}
+.css-button-text span{
+	display: block;
+	position: relative;
+	left: -5px;
+}
+
+
+
+</style>
+<body style="background-color:#000000;">
+    
+
+    <div class="main">
+        <header id="header">
+          <ul class="navbar-nav action">
+            <li class="nav-item ml-3">
+
+                <a id="loginButtonTxt" onclick="connectZilPay()" href="#" class="conBtn"><i class="icon-wallet mr-md-2"></i>Connect Wallet</a>
+               
+            </li>
+            <br><br>
+            <li class="nav-item ml-3">
+
+              <a id="unlockButtonTxt" onclick= "unlock()" href="#" class="conBtn"><i class="icon-wallet mr-md-2"></i>LOCKED</a>
+             
+          </li>
+        </ul>
+      
+            
+        </header>
+      </div>
+
+
+    <script src="scripts2.js"></script> 
+    
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    
+
+    
+</body>
+
+
+
+</html>
